@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    font-family: "Poppins";
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.STprofile {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px 50px 0 50px;
+    padding: 17px;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(40, 138, 177) 65%,
+        white 35%
+    );
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: start;
+}
+
+.STprofile img {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    border: 5px solid #fff;
+}
+.cindy {
+    display: inline-block;
+    margin: 0 0 50px 66px;
+    font-size: 25px;
+    color: white;
+}
+.strand {
+    margin: 0 0 30px 215px;
+}
+.Profilecontainer {
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 10px 50px 50px 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: start;
+}
+
+.choice {
+  
+    padding: 8px 16px;
+    margin: 0;
+    cursor: pointer;
+    background-color: #ffd6a4;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #fde9df;
+}
